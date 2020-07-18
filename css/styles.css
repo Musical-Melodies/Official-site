@@ -236,3 +236,270 @@ padding: 5% 0 15% 0;
   margin-bottom: auto;
   font-size: 0.75rem;
 }
+
+[data-toggle="collapse"][data-parent="#accordion"] i {
+  -webkit-transition: transform 150ms ease 0s;
+  -moz-transition: transform 150ms ease 0s;
+  -o-transition: transform 150ms ease 0s;
+  -ms-transition: all 150ms ease 0s;
+  transition: transform 150ms ease 0s;
+}
+
+[data-toggle="collapse"][data-parent="#accordion"][aria-expanded="true"] i {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@font-face {
+  font-family: 'Nucleo Outline';
+  src: url("../fonts/nucleo-outline.eot");
+  src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.now-ui-icons {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Nucleo Outline';
+  font-size: inherit;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@-webkit-keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes nc-icon-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes nc-icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.now-ui-icons.objects_support-17:before {
+  content: "\ea56";
+}
+
+.now-ui-icons.travel_info:before {
+  content: "\ea04";
+}
+
+.now-ui-icons.ui-1_bell-53:before {
+  content: "\ea0f";
+}
+
+.now-ui-icons.ui-1_simple-remove:before {
+  content: "\ea53";
+}
+
+.now-ui-icons.ui-2_like:before {
+  content: "\ea37";
+}
+
+.alert {
+  border: 0;
+  border-radius: 0;
+  color: #FFFFFF;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+}
+
+.alert.alert-success {
+  background-color: rgba(24, 206, 15, 0.8);
+}
+
+.alert.alert-danger {
+  background-color: rgba(255, 54, 54, 0.8);
+}
+
+.alert.alert-warning {
+  background-color: rgba(255, 178, 54, 0.8);
+}
+
+.alert.alert-info {
+  background-color: rgba(44, 168, 255, 0.8);
+}
+
+.alert .alert-icon {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  margin-top: -1px;
+}
+
+.alert strong {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.alert i.now-ui-icons {
+  font-size: 20px;
+}
+
+.alert .close {
+  color: #FFFFFF;
+  opacity: .9;
+  text-shadow: none;
+  line-height: 0;
+  outline: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section {
+  padding: 70px 0;
+  position: relative;
+  background: #FFFFFF;
+}
+
+[data-background-color="orange"] {
+  background-color: #e95e38;
+}
+
+[data-background-color="black"] {
+  background-color: #2c2c2c;
+}
+
+[data-background-color]:not([data-background-color="gray"]) {
+  color: #FFFFFF;
+}
+
+[data-background-color]:not([data-background-color="gray"]) h4,
+[data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item) {
+  color: #FFFFFF;
+}
+
+.notification-text {
+  color: #05396B;
+  font-family: "Montserrat";
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.notification-link:hover {
+  text-decoration: underline;
+  color: #ede682;
+
+}
+
+.notification-link {
+  color: #05396B;
+  text-decoration: underline;
+
+}
+
+/***********************************************/
+/***************** Packages ********************/
+/***********************************************/
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#subscribeModal .modal-content{
+	overflow:hidden;
+}
+a.h2{
+    color:#007b5e;
+    margin-bottom:0;
+    text-decoration:none;
+}
+#subscribeModal .form-control {
+    height: 56px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+	padding-left:30px;
+}
+#subscribeModal .btn {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+	padding-right:20px;
+	background:#007b5e;
+	border-color:#007b5e;
+}
+#subscribeModal .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #007b5e;
+    outline: 0;
+    box-shadow: none;
+}
+#subscribeModal .top-strip{
+	height: 155px;
+    background: #007b5e;
+    transform: rotate(141deg);
+    margin-top: -94px;
+    margin-right: 190px;
+    margin-left: -130px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+#subscribeModal .bottom-strip{
+	height: 155px;
+    background: #007b5e;
+    transform: rotate(112deg);
+    margin-top: -110px;
+    margin-right: -215px;
+    margin-left: 300px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+
+/**************************/
+/****** modal-lg stips *********/
+/**************************/
+#subscribeModal .modal-lg .top-strip {
+    height: 155px;
+    background: #007b5e;
+    transform: rotate(141deg);
+    margin-top: -106px;
+    margin-right: 457px;
+    margin-left: -130px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+#subscribeModal .modal-lg .bottom-strip {
+    height: 155px;
+    background: #007b5e;
+    transform: rotate(135deg);
+    margin-top: -115px;
+    margin-right: -339px;
+    margin-left: 421px;
+    border-bottom: 65px solid #4CAF50;
+    border-top: 10px solid #4caf50;
+}
+
+/****** extra *******/
+#Reloadpage{
+    cursor:pointer;
+}
