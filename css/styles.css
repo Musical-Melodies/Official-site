@@ -171,6 +171,8 @@ padding: 5% 0 15% 0;
 .work {
   display: block;
   margin: 0 auto 0 0;
+  border-style: none;
+  border-radius: 5px;
 }
 
 /* Container 5 */
