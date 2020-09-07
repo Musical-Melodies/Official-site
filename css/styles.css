@@ -2,7 +2,8 @@
 /* Website Developed by Soham Sane*/
 /* If you want to copy the code you may but give credit to Soham Sane */
 .god-back {
-background-image: url(https://i.ibb.co/jwVBdRM/dark-blue-back.png);
+/* background-image: url(https://i.ibb.co/jwVBdRM/dark-blue-back.png); */
+  background-color: #180045;
 }
 
 
@@ -104,13 +105,16 @@ background-image: url(https://i.ibb.co/jwVBdRM/dark-blue-back.png);
 
 .footer-text {
   padding-top: 5px;
+  color: #8a8786;
 }
 
 .soham-link {
-  color: #212529;
+/*   color: #212529; */
+  color: #8a8786;
 }
 
 .soham-link:hover {
-  color: #212529;
+/*   color: #212529; */
+  color: #8a8786;
   text-decoration: underline;
 }
